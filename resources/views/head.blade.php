@@ -78,7 +78,7 @@
 							<a href="{{ url('/auth/login') }}">Sign In</a>
 						</li>
 						<li>
-							<a href="{{ url('/auth/register') }}">Join Me</a>
+							<a href="{{ url('/auth/register') }}">Join</a>
 						</li>
 						@else
 						<li class="dropdown">
