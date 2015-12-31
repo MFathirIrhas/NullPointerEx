@@ -62,10 +62,10 @@
                     
                     <!--searchbar-->
                     
-                    <form method='POST' action='/search' class="navbar-form navbar-right" role="search">
+                    <form method='get' action='/search' class="navbar-form navbar-right" role="search">
 
                         <div class="form-group">
-                            <input class="form-control" name="search" placeholder="Search..." type="text">
+                            <input class="form-control" name="search" placeholder="Still Not Working Yet..." type="text">
                         </div>
                         <button type="submit" class="btn btn-default">Go &raquo</button>
                     </form>

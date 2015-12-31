@@ -53,7 +53,7 @@ Route::get('/{slug}',['as' => 'post', 'uses' => 'PostController@show'])->where('
 //search articles
 //Route::post('/search','PostController@search');
 
-Route::post('/search', array(
+Route::get('/search', array(
      'as'    =>  'search',
      'uses'  =>  'PostController@search'
  ));

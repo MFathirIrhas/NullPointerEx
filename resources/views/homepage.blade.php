@@ -11,8 +11,8 @@
                 <div class="col-lg-12">
                     <div class="intro-message">
                         @if(Auth::guest())
-                        <h1>NullPointerEx</h1>
-                        <h3>Exception Cannot Stops You</h3>
+                        <h1>Welcome!</h1>
+                        <h3>Free Blogs For Anything</h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
