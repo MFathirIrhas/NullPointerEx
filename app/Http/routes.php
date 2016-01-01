@@ -15,6 +15,12 @@ Route::get('/', function () {
     return view('homepage');
 });
 
+Route::get('/contact', function () {
+    return view('contact.contactme');
+});
+
+Route::get('/contact',['as' => 'contact', 'uses' => 'ContactController@getIndex']);
+
 Route::get('notes','PostController@index');
 Route::get('/bloghome',['as' => 'bloghome', 'uses' => 'PostController@index']);
 //authentication
@@ -63,5 +69,6 @@ Route::get('/search', array(
      'uses'  =>  'PostController@search'
  ));
 
-//Route::controller('contact', 'ContactController');
+//Route::get('/contact',['as' => 'contact', 'uses' => 'ContactController@getIndex']);
+
 //Route::get('/search',['as' => 'posts.search', 'uses' => 'PostController@search']);

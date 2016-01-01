@@ -1,6 +1,7 @@
 <div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<p>Copyright &copy; M.Fathir Irhas 2015. <a href="">Contact Me</a> </p>
+					<p>Copyright &copy; M.Fathir Irhas 2015. <a href="{{ url('contact') }}">Contact Me</a> </p>
+
 				</div>
 			</div>
       </div>

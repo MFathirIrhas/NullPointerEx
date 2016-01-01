@@ -1,5 +1,5 @@
 @extends('footer')
-@extends('body')
+@extends('body2')
 @extends('head')
 
 @section('content')
@@ -7,7 +7,7 @@
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="panel panel-default">
-        <div class="panel-heading">Login</div>
+        <div class="panel-heading">Sign in</div>
         <div class="panel-body">
           @if (count($errors) > 0)
             <div class="alert alert-danger">
@@ -50,7 +50,7 @@
 
             <div class="form-group">
               <div class="col-md-6 col-md-offset-4">
-                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="submit" class="btn btn-primary">Sign in</button>
 
                 <a class="btn btn-link" href="{{ url('/password/email') }}">Forgot Your Password?</a>
               </div>

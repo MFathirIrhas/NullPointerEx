@@ -1,5 +1,5 @@
 @extends('footer')
-@extends('body')
+@extends('body2')
 @extends('head')
 
 @section('content')
