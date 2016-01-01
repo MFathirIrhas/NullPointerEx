@@ -23,8 +23,8 @@ Route::controllers([
  'password' => 'Auth\PasswordController',
 ]);
 
-Route::get('aboutus',function(){
-	return View::make('aboutus');
+Route::get('about',function(){
+	return View::make('about');
 });
 
 // check for logged in user
