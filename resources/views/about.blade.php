@@ -23,11 +23,13 @@
                 <h2 class="page-header"><font color="white">About Author</font></h2>
             </div>
             <div class="col-lg-4 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="/img/fbpp.PNG" alt="">
+                <img class="img-circle img-responsive img-center" src="/img/maachan.PNG" alt="">
                 <h3><font color="white">Muhammad Fathir Irhas</font>
                      <small>NullPointerEx Author</small> 
                 </h3>
-                <a href="">Contact Me &raquo</a>
+                <a href="">Contact Me &raquo</a> </br>
+                <a target="_blank" href="https://github.com/MFathirIrhas">Follow Me On Github &raquo</a> </br>
+                <a target="_blank" href="https://id.linkedin.com/in/muhammad-fathir-irhas-05938791">View Me On Linkedin &raquo</a>
             </div>
             
             <div class="col-lg-4 col-sm-6 text-center">
@@ -36,7 +38,7 @@
                 </br>
                      <small>Biasa dipanggil Fathir, lahir di Duri, 12 Januari 1995. ablablablablab.................</small> 
                 </h3>
-                <a target="_blank" href="https://github.com/MFathirIrhas">Follow Me On Github &raquo</a>
+                
             </div>
             
         </div>
