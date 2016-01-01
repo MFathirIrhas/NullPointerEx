@@ -57,7 +57,7 @@
 						</li>
 						<li><a href="{{ url('/forum')}}">Repository</a></li>
           				<li><a href="/bloghome">Blogs</a></li>
-          				<li><a href="aboutus">About</a></li>
+          				<li><a href="about">About</a></li>
 					</ul>
                     
                     <!--searchbar-->

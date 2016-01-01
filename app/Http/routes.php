@@ -22,6 +22,11 @@ Route::controllers([
  'auth' => 'Auth\AuthController',
  'password' => 'Auth\PasswordController',
 ]);
+
+Route::get('aboutus',function(){
+	return View::make('aboutus');
+});
+
 // check for logged in user
 Route::group(['middleware' => ['auth']], function()
 {
@@ -58,5 +63,5 @@ Route::get('/search', array(
      'uses'  =>  'PostController@search'
  ));
 
-Route::controller('contact', 'ContactController');
+//Route::controller('contact', 'ContactController');
 //Route::get('/search',['as' => 'posts.search', 'uses' => 'PostController@search']);
