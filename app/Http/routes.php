@@ -58,4 +58,5 @@ Route::get('/search', array(
      'uses'  =>  'PostController@search'
  ));
 
+Route::controller('contact', 'ContactController');
 //Route::get('/search',['as' => 'posts.search', 'uses' => 'PostController@search']);
