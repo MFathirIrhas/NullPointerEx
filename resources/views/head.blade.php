@@ -96,7 +96,7 @@
 									<a href="{{ url('/user/'.Auth::id()) }}">My Profile</a>
 								</li>
 								<li>
-									<a href="{{ url('/auth/logout') }}">Logout</a>
+									<a href="{{ url('/auth/logout') }}">Sign Out</a>
 								</li>
 							</ul>
 						</li>
